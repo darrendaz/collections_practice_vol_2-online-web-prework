@@ -79,7 +79,6 @@ def organize_schools(schools)
     byLocations[item]  = schools.collect {|name, location|
       name if schools[name][:location] == item
     }.compact
-    
   }
   
   byLocations
