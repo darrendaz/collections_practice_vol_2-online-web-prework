@@ -65,7 +65,6 @@ def organize_schools(schools)
 # "Hack Reactor"=>{:location=>"SF"}}
   
 # expects 
-  
 # {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
   
   byLocations = {}
